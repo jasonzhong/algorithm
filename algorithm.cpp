@@ -9,6 +9,7 @@
 #include "selectsort.hpp"
 #include "mergesort.hpp"
 #include "heapsort.hpp"
+#include "quicksort.hpp"
 
 int main()
 {
@@ -16,8 +17,9 @@ int main()
     int arri[] = {10, 9, 2, 5, 8, 4, 3, 7, 1, 6};
     printf("数组长度 : %d\n", sizeof(arri) / sizeof(int));
 
-    heapsort sort;
-/*    mergersort sort;
+    quicksort sort;
+/*    heapsort sort;
+    mergersort sort;
     selectsort sort;
     shellsort sort;
     bubblesort bsort;        
